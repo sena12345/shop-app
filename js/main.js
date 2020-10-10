@@ -4,9 +4,9 @@ function addItem(id, name, description, price, moreInfo) {
   let html = '';
   html += '<div class="item" data-id="' + id + '">';
   html += '<div class="name">' + name + '</div>';
-  html += '<img src="assets/beach.jpg"></img>';
+  html += '<img src="img/product.jpg"></img>';
   html += '<div class="description">' + description + '</div>';
-  html += '<div class="price">' + price + '</div>';
+  html += '<div class="price">GH&#162;' + price + '</div>';
   html += '<button class="item-add">Add to cart</button>';
   html += '<button class="item-remove">Remove</button>';
   html += '<br/>';

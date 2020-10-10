@@ -1,0 +1,21 @@
+{
+  "items": [{
+    "id": 200,
+    "name": "Animal droppings",
+    "description": "This is pure African oil, Amalitech extracted juice, product description goes here..",
+    "price": 40.00,
+    "moreInfo": "Allow user to read more info about this product"
+  }, {
+    "id": 1001,
+    "name": "Blue rice",
+    "description": "This is pure African oil, Amalitech extracted juice, product description goes here..",
+    "price": 5.00,
+    "moreInfo": "Allow user to read more info about this product"
+  }, {
+    "id": 1002,
+    "name": "Leave me alone",
+    "description": "This is pure African oil, Amalitech extracted juice, product description goes here..",
+    "price": 200.00,
+    "moreInfo": "Allow user to read more info about this product"
+  }]
+}
