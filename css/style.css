@@ -9,6 +9,10 @@ body {
   padding: 12px;
   margin: 12px;
 }
+#user-data{
+  background-color: orange;
+  padding: 1rem;
+}
 
 .field{
   width: 40%;
@@ -17,8 +21,10 @@ body {
 
 }
 
-
-
+#submit-cart{
+  margin-left: 2rem;
+  padding: 1rem;
+}
 
 #cart-container {
   width: 100%;
