@@ -1,0 +1,52 @@
+body {
+  background-color: #EEE;
+}
+
+#container {
+  background-color: #FFF;
+  padding: 12px;
+  margin: 12px;
+}
+
+.field{
+  padding: 3px,3px,3px,3px;
+}
+
+
+
+
+#cart-container {
+  width: 100%;
+  background-color:orange;
+  color: #FFF;
+  padding: 12px;
+}
+
+#newsletter-frequency {
+  display: none;
+}
+
+.item {
+  width: 200px;
+  background-color: #DDD;
+  padding: 8px;
+  float: left;
+  margin: 4px;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item .name {
+  font-size: 24px;
+}
+
+.item .price {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.item .more-info {
+  display: none;
+}
