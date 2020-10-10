@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <script src="/js/jquery-3.3.1.js"></script>
+    <script src="/js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  </head>
+  <body>
+    <div id="cart-container">
+      $0
+    </div>
+    <div id="user-data">
+      <form id="cart-form" method="post" action="data/cartSubmit.json">
+        <br/>
+        <b><label>Name</label></b>
+        <input class="field" name="name" type="text"></input>
+        <br/>
+        <b><label>Email</label></b>
+        <input  class="field" name="email" type="email"></input>
+        <br/>
+        <b><label>Newsletter?</label></b>
+        <input name="wantNewsletter" id="newsletter-checkbox" checked type="checkbox"></input>
+        <br/>
+        <select name="newsletterFrequency" id="newsletter-frequency">
+          <option>-</option>
+          <option selected>Weekly</option>
+          <option>Monthly</option>
+        </select>
+        <br/>
+        <button id="submit-cart">Submit</button>
+      </form>
+      <div id="feedback-message"></div>
+    </div>
+    <div id="container">
+      <br style="clear: left;" />
+    </div>
+  </body>
+</html>
